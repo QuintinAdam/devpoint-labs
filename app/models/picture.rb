@@ -8,5 +8,5 @@ class Picture < ActiveRecord::Base
                       thumb: "100x100>"
                       }
 
-  validates :image, presence: true
+  #validates :image, presence: true
 end

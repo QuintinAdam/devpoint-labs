@@ -46,7 +46,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.3.5)
-    arel (3.0.2)
+    arel (3.0.3)
     asset_sync (1.0.0)
       activemodel
       fog (>= 1.8.0)
@@ -71,6 +71,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
+    cocoon (1.2.3)
     coderay (1.1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -110,7 +111,7 @@ GEM
     factory_girl_rails (4.3.0)
       factory_girl (~> 4.3.0)
       railties (>= 3.0.0)
-    ffaker (1.20.0)
+    ffaker (1.21.0)
     ffi (1.9.3)
     figaro (0.7.0)
       bundler (~> 1.0)
@@ -128,7 +129,7 @@ GEM
     font-awesome-sass (4.0.2)
       sass-rails (>= 3.1.1)
     formatador (0.2.4)
-    guard (2.2.3)
+    guard (2.2.4)
       formatador (>= 0.2.4)
       listen (~> 2.1)
       lumberjack (~> 1.0)
@@ -138,7 +139,7 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.0)
       multi_json (~> 1.8)
-    guard-minitest (2.0.0)
+    guard-minitest (2.1.1)
       guard (~> 2.0)
       minitest (>= 3.0)
     guard-pow (2.0.0)
@@ -249,17 +250,13 @@ GEM
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
-<<<<<<< HEAD
-    slop (3.4.7)
-=======
     simplecov (0.8.1)
       docile (~> 1.1.0)
       lockfile (>= 2.1.0)
       multi_json
       simplecov-html (~> 0.8.0)
     simplecov-html (0.8.0)
-    slop (3.4.6)
->>>>>>> ad1efc5917b245b222140d10c69e89c6bdb8fd3d
+    slop (3.4.7)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -286,7 +283,7 @@ GEM
     uuidtools (2.1.4)
     warden (1.2.3)
       rack (>= 1.0)
-    xray-rails (0.1.8)
+    xray-rails (0.1.9)
       coffee-rails
       rails (>= 3.1.0)
 
@@ -300,6 +297,7 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-sass!
   cancan
+  cocoon
   coffee-rails (~> 3.2.1)
   coveralls
   devise
